@@ -1,0 +1,12 @@
+<view class="container"> 
+ <map id="" class="border" longitude="{{location.longitude}}" latitude="{{location.latitude}}" scale="{{location.scale}}" markers="{{markers}}" bindmarkertap="markertap"></map>
+ <text class="h1"></text>
+ <view class="cta">
+  <button bindtap="getLocation" class="btn-index">Get my location</button>
+  <button bindtap="tencentLocation" class="">WeChat team location</button>
+ </view>
+</view>
+  
+
+
+

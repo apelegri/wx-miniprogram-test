@@ -17,7 +17,7 @@
   border: 3px solid white;
   color: white;
   padding: 20rpx;
-  margin-top: 20px;
+  margin-top:12px;
   border-radius: 3px;
   font-size: 32rpx;
   min-width: 520rpx;

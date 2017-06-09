@@ -1,0 +1,18 @@
+/* pages/map/map.wxss */
+.border {
+border:5px solid #95A5A6;
+width:90% !important;
+height:240px;
+margin-top:20px;
+
+}
+.cta button {
+  color: white;
+  background-color: #34495E;
+  border: 3px solid white;
+  border-radius: 3px;
+  font-size: 32rpx;
+  min-width:566rpx;
+  text-align: center;
+  font-weight: bolder;
+}

@@ -23,7 +23,7 @@ button{
 .h1 {
   font-weight:800;
   font-size: 48rpx;
-  color:#E8AA8C;
+  color:#FFFFFF;
   margin-top:10px;
 }
 
@@ -42,7 +42,4 @@ button{
   margin-top: 20rpx;
   color: #888888;
   font-size: 28rpx;
-}
-.cta:hover {
-  opacity:0.6;
 }

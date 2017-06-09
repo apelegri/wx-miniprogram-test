@@ -9,4 +9,7 @@
   <view class="cta">
    <navigator url="/pages/image/image" class="btn-index">Image: upload / save</navigator>
   </view>
+  <view class="cta">
+   <navigator url="/pages/map/map" class="btn-index">Map: get / choose</navigator>
+  </view>
 </view>
