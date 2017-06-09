@@ -1,0 +1,13 @@
+.img-size image {
+  width:280px;
+  height:250px;
+  border:2px solid white;
+  margin-top:40rpx;
+}
+.header-container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding:40rpx 35rpx;
+  box-sizing: border-box;
+}

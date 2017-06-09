@@ -4,18 +4,27 @@
   flex-direction: column;
   align-items: center;
 }
-
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width:138rpx;
+  height:138rpx;
   margin: 20rpx;
   border-radius: 50%;
+  border: 2px solid white;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.btn-index {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 20rpx;
+  margin-top: 20px;
+  border-radius: 3px;
+  font-size: 32rpx;
+  min-width: 520rpx;
+  text-align: center;
+  font-weight: bolder;
 }
-
-.usermotto {
-  margin-top: 200px;
-}
+.btn-index:hover {
+    background-color: #FFFFFF;
+    color: #34495E;
+} 

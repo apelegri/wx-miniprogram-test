@@ -2,9 +2,11 @@
 <view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="h3">
+     Let's test some cool features Adrien!!
+  </view>
+  <view class="cta">
+   <navigator url="/pages/image/image" class="btn-index">Image: upload / save</navigator>
   </view>
 </view>

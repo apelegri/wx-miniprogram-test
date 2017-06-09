@@ -1,0 +1,10 @@
+<view class="header-container">
+ <button type="primary" bindtap="listenerBtnChooseImage">Upload Image</button>
+
+<view class="container">
+  <view class="h3">Longtap the image to save:</view>
+ <view class="img-size"> 
+  <image src="{{src}}" mode="aspecFill"  bindlongtap="imgLongTap"/>
+ </view>
+</view>
+</view>
