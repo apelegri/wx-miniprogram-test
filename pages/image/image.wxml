@@ -1,6 +1,7 @@
 <view class="header-container">
+<view class="cta">
  <button type="primary" bindtap="listenerBtnChooseImage">Upload Image</button>
-
+ </view>
 <view class="container">
   <view class="h3">Longtap the image to save:</view>
  <view class="img-size"> 

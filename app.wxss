@@ -43,6 +43,14 @@ button{
   color: #888888;
   font-size: 28rpx;
 }
-.cta:hover {
-  opacity:0.6;
+
+.cta button {
+  color: white;
+  background-color: #34495E;
+  border: 3px solid white;
+  border-radius: 3px;
+  font-size: 32rpx;
+  min-width:566rpx;
+  text-align: center;
+  font-weight: bolder;
 }

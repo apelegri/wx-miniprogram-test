@@ -7,7 +7,7 @@ Page({
   },
   onShow: function () {
     wx.setNavigationBarTitle({
-      title: 'Change title',
+      title: 'API IMAGE',
       success: function (res) {
         console.log(res)
       }
