@@ -3,6 +3,18 @@ Page({
   data: {
     location:{}// used to manipulate the map in the view
   },
+  onLoad: function () {
+    wx.showNavigationBarLoading()
+  },
+  onShow: function () {
+    wx.setNavigationBarTitle({
+      title: 'API MAP',
+      success: function (res) {
+        console.log(res)
+      }
+    })
+    wx.hideNavigationBarLoading()
+  },
   onLoad: function (e) {
    this.setData({
      location: { 
@@ -11,6 +23,7 @@ Page({
        scale: "9"
      },
     })
+   wx.showNavigationBarLoading()
   },
   getLocation: function(e) {
     var that = this
