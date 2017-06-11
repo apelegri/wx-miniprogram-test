@@ -25,6 +25,6 @@
   font-weight: bolder;
 }
 .btn-index:hover {
-    background-color: #FFFFFF;
-    color: #34495E;
+  background-color: #FFF;
+  color: #34495E;
 } 

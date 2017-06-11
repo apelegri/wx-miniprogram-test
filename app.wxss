@@ -46,11 +46,19 @@ button{
 
 .cta button {
   color: white;
-  background-color: #34495E;
+  background-color: transparent;
   border: 3px solid white;
   border-radius: 3px;
   font-size: 32rpx;
   min-width:566rpx;
   text-align: center;
   font-weight: bolder;
+}
+.cta button:hover {
+  background-color: white;
+  color: #34495E;
+}
+button:after {
+  width:0;
+  height:0;
 }
